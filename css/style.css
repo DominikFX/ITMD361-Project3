@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #ffecec;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav {
+  text-align: center;
+  background-color: #d84e4e;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #8b4848;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #323232;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #606060;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 2rem;
+  max-height: 300px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #d84e4e;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1rem;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+#fav-foods {
+  background-color: #feffd5;
+}
+
+#fav-desserts {
+  background-color: #ffe9d5;
+}
+
+#cooking-process {
+  background-color: #d5ffd8;
+}
+
+.short-lists {
+  font-family: 'Arial', sans-serif;
+  color: #7f7f7f;
+}
+
+#embeds {
+  max-width: 100%;
+  border: none;
+  border-radius: 25px;
+}
+
+#contact {
+  background-color: #feffd5;
+}
+
+#summary {
+  background-color: #ffe9d5;
+}
+
+#work-experience {
+  background-color: #d5ffd8;
+}
+
+#education {
+  background-color: #b6c8ff;
+}
+
+.employer {
+  text-align: right;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.date {
+  padding-top: 0;
+  margin-top: 0.2rem;
+  text-align: right;
+}
+
+#dangers {
+  background-color: #feffd5;
+}
+
+#preperation {
+  background-color: #ffe9d5;
+}
+
+#falling {
+  background-color: #d5ffd8;
+}
+
+#landing {
+  background-color: #b6c8ff;
+}
+
+section {
+  padding: 2rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 2rem;
+}
