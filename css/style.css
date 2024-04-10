@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   background-color: #ffecec;
   margin-left: 10%;
   margin-right: 10%;
@@ -45,23 +45,29 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 2em;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
   color: #323232;
 }
 
 p {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   color: #606060;
   padding: 5px;
+}
+
+.shift-img-right {
+  float: right;
+  padding: 1.5rem;
+  border-radius: 3rem;
 }
 
 img {
@@ -78,6 +84,7 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 1rem;
+  clear: both;
 }
 
 footer p {
@@ -98,7 +105,7 @@ footer p {
 }
 
 .short-lists {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   color: #7f7f7f;
 }
 
@@ -106,6 +113,9 @@ footer p {
   max-width: 100%;
   border: none;
   border-radius: 25px;
+  float: left;
+  padding: 1.5rem;
+  padding-top: 0px;
 }
 
 #contact {
@@ -126,14 +136,21 @@ footer p {
 
 .employer {
   text-align: right;
+  padding: 1em;
+  padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
+  float: right;
+  clear: both;
 }
 
 .date {
+  padding: 1em;
   padding-top: 0;
   margin-top: 0.2rem;
   text-align: right;
+  float: right;
+  clear: both;
 }
 
 #dangers {
