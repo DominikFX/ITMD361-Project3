@@ -1,11 +1,11 @@
 function init(){
-	//alert('it works');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var myLocation = new google.maps.LatLng(41.891716, -87.605617);
+  var mySecondLoc = new google.maps.LatLng(41.867907, -87.612656);
 	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
-		mapTypeId: google.maps.MapTypeId.SATELLITE,
+		mapTypeId: google.maps.MapTypeId.DEFAULT,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
@@ -20,16 +20,31 @@ function init(){
 		icon: 'iit-icon.png'
 	});
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+  var marker2 = new google.maps.Marker({
+    position: mySecondLoc,
+    map: myMap,
+    animation: google.maps.Animation.BOUNCE,
+    icon: 'iit.icon.png'
+  });
+
+	var contentString = '<h1>Navy Pier</h1><p>One of the newest attractions of Navy Pier is Flyover Chicago. It is an awesome way to summarize Chicago. </p>';
+  var secondString = '<h1>Shedd Aquarium</h1><p>Shedd Aquarium contains a lot of fish. It has various kinds as well as has some interactive portions. Very well recommended.</p>';
 
 	var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
+    content: contentString
+  });
+
+  var infowindow2 = new google.maps.InfoWindow({
+    content: secondString
+  });
 
 	google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
 
+  google.maps.event.addListener(marker2, 'mouseover', function() {
+      infowindow2.open(myMap, marker2);
+  	});
 
 }
 
