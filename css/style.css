@@ -176,17 +176,10 @@ section {
   border-radius: 2rem;
 }
 
-#wrapper {
-  width: 850px;
-  height: 600px;
-  background-color: #c00;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
 #canvas {
-  width: 700px;
-  height: 500px;
+  min-width: 5em;
+  min-height: 30em;
   background-color: #ccc;
-  margin: 30px auto;
+  margin: 0 auto;
+  border-radius: 1.5rem;
 }
